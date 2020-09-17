@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     char  i, j, input;
-    printf("Enter A - Z  row: ");
+    printf("Enter a - z  row: ");
     scanf_s("%c", &input);
     if (input >= 'a' & input <= 'z') {
         for (i = 97; i <= input; ++i) {
