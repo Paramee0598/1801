@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     char  i, j, input;
-    printf("Enter an uppercase character you want to print in the last row: ");
+    printf("Enter A - Z  row: ");
     scanf_s("%c", &input);
     if (input >= 'a' & input <= 'z') {
         for (i = 97; i <= input; ++i) {
